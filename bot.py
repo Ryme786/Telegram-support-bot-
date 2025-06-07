@@ -31,7 +31,7 @@ async def auto_reply(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None
         # This is where you can also forward the message to yourself
         # Replace YOUR_TELEGRAM_USER_ID with your actual user ID
         # You can get your user ID by messaging @userinfobot on Telegram
-        await context.bot.forward_message(chat_id='YOUR_TELEGRAM_USER_ID', from_chat_id=update.message.chat_id, message_id=update.message.message_id)
+        await context.bot.forward_message(chat_id='6705657501', from_chat_id=update.message.chat_id, message_id=update.message.message_id)
 
 
 def main() -> None:
