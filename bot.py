@@ -8,12 +8,12 @@ TOKEN = os.environ.get('TELEGRAM_TOKEN')
 # The auto-reply message
 LAKSHYA_REPLY = """
 Telegram private group e upload kori lecture
-Pw
-Soms classroom
-Soe bangla
-Bong mistry pabe
+Pw (all sub? 
+Soms classroom(physics& chemistry)
+Soe bangla (pcmb)
+Bong mistry pabe(chemistry)
 
-Price 199 rs
+Price 199 rs (payment method upi)
 """
 
 # This function will be called when a user starts a chat with your bot
